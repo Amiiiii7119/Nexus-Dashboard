@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ngrok version *)",
+      "Bash(winget install *)",
+      "Bash(refreshenv)",
+      "Bash(ngrok config *)",
+      "PowerShell(& \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\\\\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\ngrok.exe\" config check 2>&1)",
+      "PowerShell(Remove-Item -Recurse -Force \"d:\\\\Nexus Dashboard\\\\internship-erp\" -Confirm:$false)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173 -o /dev/null -w \"%{http_code}\")"
+    ]
+  }
+}
