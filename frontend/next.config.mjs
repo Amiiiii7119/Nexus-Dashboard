@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://moneywise-saxophone-steadier.ngrok-free.dev/:path*',
+        destination: 'https://dashboard-backend-627005186796.us-central1.run.app/:path*',
       },
     ];
   },
